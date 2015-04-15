@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2/02/2015, 05:17:01 PM
+    Author     : felix
+*/
+
+body
+{
+    background-color: #cccccc;   
+}
+.DIV_Main
+{
+  background-color:#9999ff;
+  color: #fff;
+  font: bold 100% sans-serif
+}
+
+.DIV_Header {
+    background-color: #666666;
+    width: 100%;
+    height: 8%;
+    color: white;
+    line-height: 300%;
+    text-align: center;
+    font-size: 24px;
+    float:none;
+}
+
+.DIV_Main input[type="button"],.DIV_Main input[type="submit"]
+{
+    background-color: #0066cc;
+    color: #fff;
+    border-radius: 10px;
+    font: bold 100% sans-serif;
+    
+}
+
+.DIV_Main input[type="button"]:hover,input[type="submit"]:hover
+{
+    background-color: #cccccc;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.DIV_Main a
+{
+  text-decoration: none;   
+}
+ 
+.Lista table,.Lista td
+{
+   border:1px;
+   border-color: #0066cc;
+   color: white;
+   background-color: #000033;
+   padding-bottom: 5px;
+   padding-left: 2px
+}
+.Lista th
+{
+    background-color: #0066cc
+}

@@ -1,0 +1,81 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 800px;
+    min-height: 600px;
+}
+.DIV_Main{
+    width: 97%;
+    min-height: 68%;
+    margin: 1% auto;
+    background-color: rgb(220,220,220);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+header{
+    background-color: rgb(80,136,183);
+    width: 100%;
+    height: 8%;
+    color: white;
+    line-height: 300%;
+}
+header > div:first-child{
+    position: relative;
+    width: 40%;
+    height: 100%;
+    float: left;
+    font-family: 'Arial', sans serif;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: -2px 2px #000;
+}
+header > div:nth-child(2){
+    position: relative;
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+header > div:last-child{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    float: left;
+    font-family: 'Arial', sans serif;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: -2px 2px #000;
+}
+footer{
+    background-color: rgb(90,90,90);
+    width: 100%;
+    height: 20%;
+}
+footer > div:first-child, footer > div:last-child{
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+footer > div:last-child{
+    margin-top: -51%;
+}
+footer > div:nth-child(3){
+    position: relative;
+    float: left;
+    width: 60%;
+    height: 50%;
+    border-top: 1px solid #fff;
+    text-align: center;
+    color: white;
+    font-family: 'Arial', sans serif;
+    font-size: 20px;
+}
+footer > div:nth-child(2){
+    position: relative;
+    float: left;
+    width: 60%;
+    height: 50%;    
+}
